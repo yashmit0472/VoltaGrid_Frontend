@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VoltaGrid AI | Autonomous Data Automation Platform</title>
+    <meta
+      name="description"
+      content="VoltaGrid AI automates data pipelines, compliance checks, enrichment, and operational workflows with observable AI agents built for revenue teams."
+    >
+    <meta name="theme-color" content="#06111f">
+    <meta property="og:title" content="VoltaGrid AI | Autonomous Data Automation Platform">
+    <meta
+      property="og:description"
+      content="Launch monitored AI data workflows in minutes with isolated pricing logic, semantic architecture, and high-performance responsive UX."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%2306111f'/%3E%3Cpath d='M110 478 328 208l194 164 122-218 446 324' fill='none' stroke='%2327e0a3' stroke-width='24'/%3E%3Ccircle cx='328' cy='208' r='44' fill='%23ffcd4d'/%3E%3Ccircle cx='644' cy='154' r='44' fill='%23ff6b5f'/%3E%3Ctext x='96' y='126' fill='white' font-family='Arial' font-size='68' font-weight='700'%3EVoltaGrid AI%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary">
+      <nav class="nav-shell">
+        <a class="brand" href="#top" aria-label="VoltaGrid AI home">
+          <svg aria-hidden="true" viewBox="0 0 40 40">
+            <path d="M20 2 36 11v18L20 38 4 29V11L20 2Z" fill="currentColor"></path>
+            <path d="M13 24 19 12h9l-6 9h6l-12 8 3-5h-6Z" fill="#06111f"></path>
+          </svg>
+          <span>VoltaGrid AI</span>
+        </a>
+        <div class="nav-links" aria-label="Page sections">
+          <a href="#features">Features</a>
+          <a href="#proof">Proof</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <a class="nav-cta" href="#pricing">
+          <span>View plans</span>
+          <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 10h9M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero" aria-labelledby="hero-title">
+        <canvas id="signal-canvas" aria-hidden="true"></canvas>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Autonomous data ops, safely shipped</p>
+            <h1 id="hero-title">VoltaGrid AI</h1>
+            <p class="hero-kicker">
+              The AI automation layer that watches your pipelines, reconciles messy records, and turns live business data into governed actions.
+            </p>
+            <div class="hero-actions" aria-label="Hero actions">
+              <a class="button primary" href="#pricing">
+                <span>Start automation</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 10h9M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+              <a class="button secondary" href="#features">
+                <span>Explore system</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M10 3v14M3 10h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-console" aria-label="Live automation console preview">
+            <div class="console-top">
+              <span></span>
+              <span></span>
+              <span></span>
+              <strong>flow: revenue-sync</strong>
+            </div>
+            <ol class="pipeline" aria-label="Pipeline events">
+              <li>
+                <span class="pipe-status ok"></span>
+                <p><strong>Ingest</strong><em>18 sources normalized</em></p>
+                <time datetime="PT0.08S">80 ms</time>
+              </li>
+              <li>
+                <span class="pipe-status warn"></span>
+                <p><strong>Detect</strong><em>42 duplicate enterprise accounts</em></p>
+                <time datetime="PT0.14S">140 ms</time>
+              </li>
+              <li>
+                <span class="pipe-status hot"></span>
+                <p><strong>Act</strong><em>RevOps playbook drafted</em></p>
+                <time datetime="PT0.21S">210 ms</time>
+              </li>
+            </ol>
+            <figure class="mini-chart">
+              <svg role="img" aria-labelledby="chart-title chart-desc" viewBox="0 0 420 150">
+                <title id="chart-title">Data quality lift chart</title>
+                <desc id="chart-desc">A line chart showing automation health rising across six checkpoints.</desc>
+                <path d="M20 120 C 70 92, 92 98, 130 70 S 204 58, 242 78 309 40, 400 26" fill="none" stroke="#27e0a3" stroke-width="8" stroke-linecap="round"></path>
+                <path d="M20 120 C 70 92, 92 98, 130 70 S 204 58, 242 78 309 40, 400 26 L400 140H20Z" fill="url(#chartFill)"></path>
+                <defs>
+                  <linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0" stop-color="#27e0a3" stop-opacity=".4"></stop>
+                    <stop offset="1" stop-color="#27e0a3" stop-opacity="0"></stop>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </figure>
+          </aside>
+        </div>
+      </section>
+
+      <section class="metrics-band" aria-label="Platform outcomes">
+        <article>
+          <strong>38M</strong>
+          <span>records reconciled daily</span>
+        </article>
+        <article>
+          <strong>99.98%</strong>
+          <span>audited workflow uptime</span>
+        </article>
+        <article>
+          <strong>4.7x</strong>
+          <span>faster data launches</span>
+        </article>
+        <article>
+          <strong>12</strong>
+          <span>governed agent roles</span>
+        </article>
+      </section>
+
+      <section id="features" class="section features-section" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">Feature system</p>
+          <h2 id="features-title">One interface for the entire automation graph.</h2>
+          <p>Desktop users get a dense bento control wall. Mobile users get the same state as a native-feeling accordion.</p>
+        </div>
+
+        <div class="feature-shell" data-feature-wrapper>
+          <div class="bento-grid" data-bento-grid aria-label="Feature bento grid">
+            <article class="bento-node is-active" tabindex="0" data-feature-index="0">
+              <span class="node-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 7h14M5 12h14M5 17h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+              </span>
+              <h3>Schema negotiator</h3>
+              <p>Maps drifting source fields into a contract your warehouse can trust.</p>
+            </article>
+            <article class="bento-node tall" tabindex="0" data-feature-index="1">
+              <span class="node-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v18M5 8h14M7 16h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+              </span>
+              <h3>Agent runbooks</h3>
+              <p>Deploy AI operators with scoped permissions, approvals, rollback checks, and crisp audit trails.</p>
+            </article>
+            <article class="bento-node wide" tabindex="0" data-feature-index="2">
+              <span class="node-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 18 9 9l5 4 6-8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+              <h3>Forecast fabric</h3>
+              <p>Blends operational signals with CRM, billing, and product events for live revenue predictions.</p>
+            </article>
+            <article class="bento-node" tabindex="0" data-feature-index="3">
+              <span class="node-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4 4 8v8l8 4 8-4V8l-8-4ZM4 8l8 4 8-4M12 12v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg>
+              </span>
+              <h3>Secure enrich</h3>
+              <p>Routes enrichment tasks through policy gates before any customer data leaves your perimeter.</p>
+            </article>
+            <article class="bento-node" tabindex="0" data-feature-index="4">
+              <span class="node-icon">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 12h10M12 7v10M4 4h16v16H4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path></svg>
+              </span>
+              <h3>Human checkpoints</h3>
+              <p>Escalates ambiguous actions to owners with context, confidence, and one-tap resolution.</p>
+            </article>
+          </div>
+
+          <div class="feature-preview" aria-live="polite">
+            <p class="eyebrow">Active module</p>
+            <h3 data-feature-title>Schema negotiator</h3>
+            <p data-feature-copy>Maps drifting source fields into a contract your warehouse can trust.</p>
+            <div class="preview-meter" aria-hidden="true">
+              <span style="--meter: 84%"></span>
+            </div>
+          </div>
+
+          <div class="accordion-list" data-accordion-list aria-label="Feature accordion">
+            <article class="accordion-item is-open" data-accordion-index="0">
+              <button type="button" aria-expanded="true">
+                <span>Schema negotiator</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </button>
+              <div class="accordion-panel"><p>Maps drifting source fields into a contract your warehouse can trust.</p></div>
+            </article>
+            <article class="accordion-item" data-accordion-index="1">
+              <button type="button" aria-expanded="false">
+                <span>Agent runbooks</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </button>
+              <div class="accordion-panel"><p>Deploy AI operators with scoped permissions, approvals, rollback checks, and crisp audit trails.</p></div>
+            </article>
+            <article class="accordion-item" data-accordion-index="2">
+              <button type="button" aria-expanded="false">
+                <span>Forecast fabric</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </button>
+              <div class="accordion-panel"><p>Blends operational signals with CRM, billing, and product events for live revenue predictions.</p></div>
+            </article>
+            <article class="accordion-item" data-accordion-index="3">
+              <button type="button" aria-expanded="false">
+                <span>Secure enrich</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </button>
+              <div class="accordion-panel"><p>Routes enrichment tasks through policy gates before any customer data leaves your perimeter.</p></div>
+            </article>
+            <article class="accordion-item" data-accordion-index="4">
+              <button type="button" aria-expanded="false">
+                <span>Human checkpoints</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </button>
+              <div class="accordion-panel"><p>Escalates ambiguous actions to owners with context, confidence, and one-tap resolution.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proof" class="section proof-section" aria-labelledby="proof-title">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Social proof</p>
+          <h2 id="proof-title">Built for teams that cannot afford mystery automation.</h2>
+        </div>
+        <div class="proof-grid">
+          <figure>
+            <blockquote>VoltaGrid gave finance and RevOps one shared operating layer. Our close process stopped depending on heroic spreadsheets.</blockquote>
+            <figcaption>
+              <strong>Mira Shah</strong>
+              <span>VP Operations, Northstar Cloud</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <blockquote>The audit trail is the product. Every agent action explains itself, so our security team became a launch partner instead of a blocker.</blockquote>
+            <figcaption>
+              <strong>Jon Bell</strong>
+              <span>CISO, LumaWorks</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <blockquote>We moved from weekly cleanup rituals to continuous correction. The platform feels fast, opinionated, and unusually calm.</blockquote>
+            <figcaption>
+              <strong>Ana Ribeiro</strong>
+              <span>Data Lead, Helio Market</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing-section" aria-labelledby="pricing-title">
+        <div class="pricing-head">
+          <div class="section-heading">
+            <p class="eyebrow">Matrix pricing</p>
+            <h2 id="pricing-title">Choose the operating tier for your automation graph.</h2>
+          </div>
+          <form class="pricing-controls" aria-label="Pricing controls">
+            <label>
+              <span>Currency</span>
+              <select data-currency-switcher aria-label="Currency">
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="EUR">EUR</option>
+              </select>
+            </label>
+            <fieldset data-billing-switcher>
+              <legend>Billing</legend>
+              <button type="button" class="is-selected" data-billing="monthly" aria-pressed="true">Monthly</button>
+              <button type="button" data-billing="annual" aria-pressed="false">Annual</button>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card" data-plan="starter">
+            <p class="plan-label">Starter</p>
+            <h3>Workflow Lab</h3>
+            <p class="price-line"><span data-price-symbol></span><strong data-price-amount>--</strong><em data-price-period>/mo</em></p>
+            <p class="annual-note">Annual total <span data-annual-total>--</span></p>
+            <ul>
+              <li>5 active automations</li>
+              <li>2 governed agents</li>
+              <li>30-day audit history</li>
+            </ul>
+            <a class="button secondary" href="mailto:sales@voltagrid.ai?subject=Starter%20plan">Select Starter</a>
+          </article>
+          <article class="price-card featured" data-plan="scale">
+            <p class="plan-label">Most chosen</p>
+            <h3>Scale Command</h3>
+            <p class="price-line"><span data-price-symbol></span><strong data-price-amount>--</strong><em data-price-period>/mo</em></p>
+            <p class="annual-note">Annual total <span data-annual-total>--</span></p>
+            <ul>
+              <li>50 active automations</li>
+              <li>8 governed agents</li>
+              <li>Warehouse observability</li>
+            </ul>
+            <a class="button primary" href="mailto:sales@voltagrid.ai?subject=Scale%20plan">Select Scale</a>
+          </article>
+          <article class="price-card" data-plan="enterprise">
+            <p class="plan-label">Enterprise</p>
+            <h3>Autonomy Fabric</h3>
+            <p class="price-line"><span data-price-symbol></span><strong data-price-amount>--</strong><em data-price-period>/mo</em></p>
+            <p class="annual-note">Annual total <span data-annual-total>--</span></p>
+            <ul>
+              <li>Unlimited automations</li>
+              <li>Custom agent policies</li>
+              <li>Dedicated data residency</li>
+            </ul>
+            <a class="button secondary" href="mailto:sales@voltagrid.ai?subject=Enterprise%20plan">Talk to sales</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>VoltaGrid AI</p>
+      <span>Autonomous data workflows with visible control.</span>
+    </footer>
+  </body>
+</html>
