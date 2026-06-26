@@ -24,7 +24,7 @@ To run this project locally, simply start a lightweight HTTP server:
 
 ```bash
 # Using Node.js
-node server.js
+node local-dev.js
 
 # Or using Python 3
 python -m http.server 4173
